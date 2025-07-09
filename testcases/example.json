@@ -1,0 +1,14 @@
+[
+  {
+    "name": "测试百度",
+    "url": "https://www.baidu.com",
+    "method": "GET",
+    "expected_status": 200
+  },
+  {
+    "name": "测试不存在的页面",
+    "url": "https://www.baidu.com/404",
+    "method": "GET",
+    "expected_status": 404
+  }
+]
